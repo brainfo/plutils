@@ -37,11 +37,11 @@ fig_size = [7.09, 6.69]
 fig, ax = plt.subplots()
 x = np.linspace(0, 10, 100)
 ax.plot(x, np.sin(x), label='sin(x)') ## or any function that returns axes
-save_single_ax(ax, 'plot.png', plot_size=(fig_size/4, fig_size/8), legend_out=True, right_pad_frac=0.3)
+plu.save_single_ax(ax, 'plot.png', plot_size=(fig_size/4, fig_size/8), legend_out=True, right_pad_frac=0.3)
 
 # Multiple axes plot
 fig, axs = plt.subplots(2, 2)
 for ax in axs.flat:
     ax.plot(x, np.sin(x))
-save_multiple_axes(axs.flat, 'grid.png', grid_size=(2, 2), plot_size=(fig_size/4, fig_size/8))
+plu.save_multiple_axes(axs.flat, 'grid.png', grid_size=(2, 2), plot_size=(fig_size/4, fig_size/8))
 ```

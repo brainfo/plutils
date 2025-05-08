@@ -40,5 +40,5 @@ plu.save_single_ax(ax, 'plot.pdf', plot_size=(fig_size/4, fig_size/8), legend_ou
 # Multiple axes plot
 ## for example if start with Figure object fig
 axs = fig.axes
-plu.save_multiple_axes(axs.flat, 'grid.pdf', grid_size=(2, 2), plot_size=(fig_size/4, fig_size/8))
+plu.save_multiple_axes(axs, 'grid.pdf', grid_size=(2, 2), plot_size=(fig_size/4, fig_size/8))
 ```

@@ -22,7 +22,7 @@ pytest test_plutils.py -v
 
 - `save_single_ax`: Save a single axis with customizable plot size and legend placement
 - `save_multiple_axes`: Save multiple axes in a grid layout with consistent sizing
-- `reset_mpl_style`: Reset matplotlib style to default settings
+- `reset_mpl_style`: Reset matplotlib style to default settings or given matplotlibrc
 
 ## Example Usage
 

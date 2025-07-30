@@ -4,18 +4,10 @@ A collection of matplotlib utilities for creating publication-quality plots.
 
 ## Installation
 
-Install the package in development mode:
+Install the package from github (uv):
 
 ```bash
-pip install -e .
-```
-
-## Testing
-
-Run the test suite:
-
-```bash
-pytest test_plutils.py -v
+uv pip install git+https://github.com/brainfo/plutils.git
 ```
 
 ## Features
